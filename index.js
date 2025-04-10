@@ -54,3 +54,22 @@
 // console.log(audio);
 // audio.play();
 // });
+
+// window.addEventListener("keydown",function(e){
+// const audio = document.querySelector=(`audio[data-key="${e.keyCode}"]`);
+// console.log(audio);
+// // if(!audio) return;else
+// // function playAudio(keydown) {
+// //    audio.play();
+// //   } 
+// });
+
+
+
+window.addEventListener('keydown', function(e){
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    audio.play();
+    if(!audio) return;
+    console.log(audio);
+});
+

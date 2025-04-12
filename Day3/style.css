@@ -1,0 +1,37 @@
+:root{
+   
+    --base:#ffc600;
+    --spacing:10px;
+    --blur:10px;
+
+
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.img{
+    padding-top: 50px;
+}
+
+
+.pic{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    -webkit-filter: blur(var(--blur));
+    height: 300px;
+}
+
+.container{
+    background-color: bisque;
+    text-align: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+input {
+    width: 100px;
+  }
